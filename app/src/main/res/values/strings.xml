@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Covid Ainul</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="about">About</string>
+    <string name="home">Home</string>
+
+    // data
+    <string name="ket">ket :</string>
+    <string name="not_update">Data has not been updated</string>
+    <string name="confirmed">Positive</string>
+    <string name="recovered">Recovered</string>
+    <string name="deaths">Deaths</string>
+    <string name="zero">0</string>
+    <string name="province">Province</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="versiapp">Covid App V.1</string>
+    <string name="title_activity_vid">Pencegahan Covid19 </string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>

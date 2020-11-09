@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gradient_primary"
+    tools:context="com.ai.covidainuas.activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="236dp"
+        android:layout_height="105dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/covid" />
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/judul"
+        android:text="Covid App"
+        android:textColor="#2C366E"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="70dp"
+        android:fontFamily="@font/adamina"
+        android:text="by Ainul"
+        android:textColor="#2C366E"
+        android:textSize="12sp" />
+</LinearLayout>
